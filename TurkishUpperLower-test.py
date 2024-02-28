@@ -1,4 +1,4 @@
-import TurkishUpperLower as TL
+import TurkishUpperLower as TUL
 
 
 text= "BUNU KÜÇÜK HARFLERLE YAZABİLİRMİSİN : ÇŞĞİÖÜI"
@@ -9,7 +9,7 @@ print("küçük harflerle yazılması gereken cümle: ",text)
 text_lower= text.lower()
 print("normal lower:",text_lower)
 
-text_trLower= TL.tr_lower(text)
+text_trLower= TUL.tr_lower(text)
 
 
 
