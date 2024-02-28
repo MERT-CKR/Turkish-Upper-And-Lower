@@ -1,3 +1,5 @@
+#normal lower test
+
 text="İstanbul".lower()
 if "istanbul" == text:
   print("True")   
