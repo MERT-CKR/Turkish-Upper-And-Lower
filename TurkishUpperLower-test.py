@@ -15,5 +15,5 @@ text_trLower= TUL.tr_lower(text)
 
 print("tr lower:",text_trLower)
 
-print("normal lower çalıştı mı?",text_lower==text2)
+print("default lower çalıştı mı?",text_lower==text2)
 print("tr lower çalıştı mı?",text_trLower==text2)
