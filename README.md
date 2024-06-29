@@ -15,6 +15,8 @@ else:
 ---
 
 
+
+
 Aynı problem casefold() metodunda da geçerli:
 
 ```
@@ -30,11 +32,13 @@ else:
 ---
 
 
+
+
 Ben bu sorunu Turkish Upper Lower'ı geliştirerek çözdüm:
 
 ```
 #Turkish upper lower test
-text= TUL.tr_lower("İstanbul")
+text= tr_lower("İstanbul")
 if "istanbul" == text:
   print("Turkish upper lower çalıştı mı? ",True)   
 else:
